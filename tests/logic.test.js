@@ -1,0 +1,14 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {priceQuote} from '../server/pricing.js';
+import {validateCustomer,hashPass,verifyPass,variantId} from '../server/utils.js';
+const products=[{id:'a',name:'Fundas',active:true,deleted:false,tiers:[{min:10,price:3100},{min:50,price:2900},{min:100,price:2800}]}];
+const variants=[{id:'v1',product_id:'a',model:'15',stock:150,active:true},{id:'v2',product_id:'a',model:'16',stock:150,active:true}];
+const order={mode:'mayorista',preview:true,items:[{productId:'a',variantId:'v1',qty:30},{productId:'a',variantId:'v2',qty:20}]};
+test('Escala suma variantes de misma familia',()=>{const q=priceQuote(order,products,variants);assert.equal(q.total,145000);assert.ok(q.lines.every(l=>l.unitPrice===2900))});
+test('Mayorista mínimo $70.000',()=>{assert.throws(()=>priceQuote({...order,preview:false,items:[{productId:'a',variantId:'v1',qty:10}]},products,variants),/mínimo/i)});
+test('Nunca modo minorista',()=>assert.throws(()=>priceQuote({...order,mode:'minorista'},products,variants),/Solo se permiten/));
+test('Sin stock bloquea la operación',()=>assert.throws(()=>priceQuote({...order,items:[{productId:'a',variantId:'v1',qty:151}]},products,variants),/Stock insuficiente/));
+test('Sin precio publicado no cotiza',()=>assert.throws(()=>priceQuote({...order,items:[{productId:'a',variantId:'v1',qty:1}]},products,variants),/Precio no publicado/));
+test('Cliente: ocho campos obligatorios',()=>{const x={firstName:'Juan',lastName:'Perez',dni:'30123456',phone:'2478123456',address:'San Martin 123',city:'Arrecifes',postalCode:'2740',email:'jp@example.com'};assert.equal(validateCustomer(x).customer,'Juan Perez');for(const k of Object.keys(x))assert.throws(()=>validateCustomer({...x,[k]:''}))});
+test('Contraseña hash scrypt',()=>{const h=hashPass('una-clave-segura-de-16');assert.ok(verifyPass('una-clave-segura-de-16',h));assert.ok(!verifyPass('incorrecta',h))});
+test('IDs consistentes',()=>assert.equal(variantId('funda','iPhone 15'),variantId('funda','iPhone 15')));

@@ -1,0 +1,1 @@
+{"name":"celulab-store-vercel","version":"4.0.0","type":"module","private":true,"engines":{"node":">=22"},"scripts":{"start":"node server/local.js","dev":"node server/local.js","test":"node --test tests/*.test.js","seed":"node scripts/seed.js","hash-password":"node scripts/hash-password.js","migrate-local":"node scripts/migrate-local.js"},"dependencies":{"postgres":"^3.4.7"}}

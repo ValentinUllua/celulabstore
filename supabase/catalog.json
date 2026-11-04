@@ -1,0 +1,457 @@
+[
+  {
+    "id": "funda-magsafe",
+    "name": "Fundas MagSafe iPhone",
+    "category": "Fundas",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 2700
+      },
+      {
+        "min": 50,
+        "price": 2600
+      },
+      {
+        "min": 100,
+        "price": 2550
+      },
+      {
+        "min": 200,
+        "price": 2500
+      }
+    ],
+    "models": [
+      "iPhone 13/14",
+      "iPhone 13 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 Pro",
+      "iPhone 15 Pro Max",
+      "iPhone 16",
+      "iPhone 17",
+      "iPhone 17 Pro",
+      "iPhone 17 Pro Max"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Fundas MagSafe Transparente",
+    "image": "",
+    "description": "Fundas MagSafe. Seleccioná los modelos y cantidades."
+  },
+  {
+    "id": "funda-silicona",
+    "name": "Fundas de silicona con logo",
+    "category": "Fundas",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 3100
+      },
+      {
+        "min": 50,
+        "price": 2900
+      },
+      {
+        "min": 100,
+        "price": 2800
+      },
+      {
+        "min": 200,
+        "price": 2700
+      }
+    ],
+    "models": [
+      "iPhone 13/14",
+      "iPhone 13 Pro",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 Pro",
+      "iPhone 15 Pro Max",
+      "iPhone 16",
+      "iPhone 16 Pro",
+      "iPhone 16 Pro Max",
+      "iPhone 17",
+      "iPhone 17 Pro",
+      "iPhone 17 Pro Max",
+      "iPhone 13 Pro Max"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Fundas de silicona con logo",
+    "image": "",
+    "description": "Fundas de silicona. Combiná modelos para alcanzar una escala de precio."
+  },
+  {
+    "id": "vidrio-9d",
+    "name": "Vidrios templados 9D",
+    "category": "Vidrios",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 790
+      },
+      {
+        "min": 50,
+        "price": 750
+      },
+      {
+        "min": 100,
+        "price": 710
+      },
+      {
+        "min": 200,
+        "price": 690
+      }
+    ],
+    "models": [
+      "iPhone 11",
+      "iPhone 11 Pro Max",
+      "iPhone 12 Pro Max",
+      "iPhone 12 / 12 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 13 / 13 Pro / 14",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 Pro Max",
+      "iPhone 15 / 15 Pro",
+      "iPhone 16",
+      "iPhone 16 Pro / 17 / 17 Pro",
+      "iPhone 16 Pro Max / 17 Pro Max"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Glass 9D",
+    "image": "",
+    "description": "Vidrios de protección 9D para iPhone."
+  },
+  {
+    "id": "vidrio-antiespia",
+    "name": "Vidrios antiespía",
+    "category": "Vidrios",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 1350
+      },
+      {
+        "min": 50,
+        "price": 1310
+      },
+      {
+        "min": 100,
+        "price": 1280
+      },
+      {
+        "min": 200,
+        "price": 1250
+      }
+    ],
+    "models": [
+      "iPhone 11 Pro",
+      "iPhone 13 Pro Max",
+      "iPhone 13 / 13 Pro / 14",
+      "iPhone 14 Pro",
+      "iPhone 14 Pro Max",
+      "iPhone 15",
+      "iPhone 15 Pro Max",
+      "iPhone 16",
+      "iPhone 16 Pro / 17 / 17 Pro",
+      "iPhone 16 Pro Max / 17 Pro Max"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Glass Antiespia",
+    "image": "",
+    "description": "Protectores de privacidad para distintos modelos."
+  },
+  {
+    "id": "cargador-ip20-arg",
+    "name": "Cargador iPhone 20W (Arg)",
+    "category": "Cargadores",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 5800
+      },
+      {
+        "min": 50,
+        "price": 5800
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Productos-1.pdf: ID 36 (10 y 50 unidades)",
+    "image": "",
+    "description": "No se fusiona automáticamente con la versión AAA."
+  },
+  {
+    "id": "cable-cc",
+    "name": "Cable USB-C / USB-C",
+    "category": "Cables",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 2900
+      },
+      {
+        "min": 50,
+        "price": 2900
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Productos-1.pdf: ID 37 (10 y 50 unidades)",
+    "image": "",
+    "description": "sin especificación de cable mallado."
+  },
+  {
+    "id": "cable-cl",
+    "name": "Cable USB-C / Lightning",
+    "category": "Cables",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 3300
+      },
+      {
+        "min": 50,
+        "price": 3300
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Productos-1.pdf: ID 38 (10 y 50 unidades)",
+    "image": "",
+    "description": "sin especificación AAA."
+  },
+  {
+    "id": "funda-antishock",
+    "name": "Funda antishock transparente",
+    "category": "Fundas",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 1900
+      },
+      {
+        "min": 50,
+        "price": 1790
+      },
+      {
+        "min": 100,
+        "price": 1690
+      },
+      {
+        "min": 200,
+        "price": 1660
+      }
+    ],
+    "models": [
+      "Consultar modelo"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Funda Antishock Transparente",
+    "image": "",
+    "description": "Modelos sujetos a consulta."
+  },
+  {
+    "id": "cargador-aaa-arg",
+    "name": "Cargador 20W AAA (Arg)",
+    "category": "Cargadores",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 5800
+      },
+      {
+        "min": 50,
+        "price": 5500
+      },
+      {
+        "min": 100,
+        "price": 5300
+      },
+      {
+        "min": 200,
+        "price": 5100
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Cargadores 20 W AAA (Arg)",
+    "image": "",
+    "description": "Precio mayorista informado. No se asumió equivalencia con Cargador iPhone 20W (Arg)."
+  },
+  {
+    "id": "cargador-aaa-eu",
+    "name": "Cargador 20W AAA (Eu)",
+    "category": "Cargadores",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 5300
+      },
+      {
+        "min": 50,
+        "price": 5000
+      },
+      {
+        "min": 100,
+        "price": 4900
+      },
+      {
+        "min": 200,
+        "price": 4800
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Cargador 20 W AAA (Eu)",
+    "image": "",
+    "description": "Cargador europeo."
+  },
+  {
+    "id": "cargador-original",
+    "name": "Cargador 20W Original",
+    "category": "Cargadores",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 34800
+      },
+      {
+        "min": 50,
+        "price": 30200
+      },
+      {
+        "min": 100,
+        "price": 27200
+      },
+      {
+        "min": 200,
+        "price": 26500
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Cargador 20 W Original",
+    "image": "",
+    "description": ""
+  },
+  {
+    "id": "cable-mallado-aaa",
+    "name": "Cable C a C mallado AAA",
+    "category": "Cables",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 2900
+      },
+      {
+        "min": 50,
+        "price": 2750
+      },
+      {
+        "min": 100,
+        "price": 2700
+      },
+      {
+        "min": 200,
+        "price": 2600
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Cable C a C Mallado AAA",
+    "image": "",
+    "description": "Cable mallado."
+  },
+  {
+    "id": "cable-lightning-aaa",
+    "name": "Cable C a Lightning AAA",
+    "category": "Cables",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 3300
+      },
+      {
+        "min": 50,
+        "price": 3200
+      },
+      {
+        "min": 100,
+        "price": 3100
+      },
+      {
+        "min": 200,
+        "price": 3000
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Cables C a Lightning AAA",
+    "image": "",
+    "description": ""
+  },
+  {
+    "id": "airpods-pro2-aaa",
+    "name": "Air Pods Pro 2 AAA",
+    "category": "Audio",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 17500
+      },
+      {
+        "min": 50,
+        "price": 15800
+      },
+      {
+        "min": 100,
+        "price": 15050
+      },
+      {
+        "min": 200,
+        "price": 14050
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Air Pods Pro 2 AAA",
+    "image": "",
+    "description": "Auriculares."
+  },
+  {
+    "id": "airpods-pro3-aaa",
+    "name": "Air Pods Pro 3 AAA",
+    "category": "Audio",
+    "tiers": [
+      {
+        "min": 10,
+        "price": 22500
+      },
+      {
+        "min": 50,
+        "price": 20500
+      },
+      {
+        "min": 100,
+        "price": 19550
+      },
+      {
+        "min": 200,
+        "price": 18350
+      }
+    ],
+    "models": [
+      "Único"
+    ],
+    "sourceWholesale": "Catálogo_Mayorista_Celulab.pdf: Air Pods Pro 3 AAA",
+    "image": "",
+    "description": "Auriculares."
+  }
+]
